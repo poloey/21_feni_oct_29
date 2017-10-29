@@ -32,3 +32,11 @@ if we use `$_REQUEST` super global array we can access both `get` and `post` met
 $email = $_REQUEST['email'];
 ~~~
 
+`var_dump` and `print_r` help us to debug in php. Its like `console.log` in js. 
+~~~php
+print_r($array1);
+or
+var_dump($array2);
+~~~
+
+
